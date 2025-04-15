@@ -1,6 +1,7 @@
 import asyncio
 import base64
 import copy
+import json
 import os
 import pickle
 import re
@@ -50,8 +51,6 @@ def format_channel_data(url: str, origin: OriginType) -> ChannelData:
         "id": hash(url),
         "url": url,
         "host": get_url_host(url),
-        "date": None,
-        "resolution": None,
         "origin": url_origin,
         "ipv_type": None
     }
@@ -475,13 +474,15 @@ def append_data_to_info_data(info_data, cate, name, data, origin=None, check=Tru
     url_hosts = set([get_url_host(url) for url in urls])
     for item in data:
         try:
-            channel_id, url, host, date, resolution, url_origin, ipv_type = (
-                item.get("id", None), item["url"],
+            channel_id, url, host, date, resolution, url_origin, ipv_type, headers = (
+                item.get("id", None),
+                item["url"],
                 item.get("host", None),
                 item.get("date", None),
                 item.get("resolution", None),
                 origin or item["origin"],
-                item.get("ipv_type", None)
+                item.get("ipv_type", None),
+                item.get("headers", None)
             )
             if not url_origin:
                 continue
@@ -494,7 +495,7 @@ def append_data_to_info_data(info_data, cate, name, data, origin=None, check=Tru
                     host = get_url_host(url_partition[0])
                 url_info = url_partition[2]
                 white_info = url_info and url_info.startswith("!")
-                if not white_info and pure_url in urls:
+                if not white_info and pure_url in urls and not headers:
                     continue
                 if not ipv_type:
                     if ipv_type_data:
@@ -506,7 +507,7 @@ def append_data_to_info_data(info_data, cate, name, data, origin=None, check=Tru
                 if not white_info:
                     if host in url_hosts:
                         for p_url in urls:
-                            if get_url_host(p_url) == host and len(p_url) < len(pure_url):
+                            if get_url_host(p_url) == host and (len(p_url) < len(pure_url) or headers):
                                 urls.remove(p_url)
                                 urls.add(pure_url)
                                 for index, info in enumerate(info_data[cate][name]):
@@ -518,7 +519,8 @@ def append_data_to_info_data(info_data, cate, name, data, origin=None, check=Tru
                                             "date": date,
                                             "resolution": resolution,
                                             "origin": url_origin,
-                                            "ipv_type": ipv_type
+                                            "ipv_type": ipv_type,
+                                            "headers": headers
                                         }
                                         break
                                 break
@@ -538,7 +540,8 @@ def append_data_to_info_data(info_data, cate, name, data, origin=None, check=Tru
                         "date": date,
                         "resolution": resolution,
                         "origin": url_origin,
-                        "ipv_type": ipv_type
+                        "ipv_type": ipv_type,
+                        "headers": headers
                     })
                     urls.add(pure_url)
                     url_hosts.add(host)
@@ -667,6 +670,7 @@ async def process_sort_channel_list(data, ipv6=False, callback=None):
     """
     ipv6_proxy_url = None if (not config.open_ipv6 or ipv6) else constants.ipv6_proxy
     open_filter_resolution = config.open_filter_resolution
+    open_headers = config.open_headers
     min_resolution_value = config.min_resolution_value
     get_resolution = open_filter_resolution and check_ffmpeg_installed_status()
     sort_timeout = config.sort_timeout
@@ -675,11 +679,12 @@ async def process_sort_channel_list(data, ipv6=False, callback=None):
     result = {}
     semaphore = asyncio.Semaphore(10)
 
-    async def limited_get_speed(url, cache_key, is_ipv6, ipv6_proxy, resolution, filter_resolution, min_resolution,
+    async def limited_get_speed(url, headers, cache_key, is_ipv6, ipv6_proxy, resolution, filter_resolution,
+                                min_resolution,
                                 timeout,
                                 callback):
         async with semaphore:
-            return await get_speed(url, cache_key, is_ipv6=is_ipv6, ipv6_proxy=ipv6_proxy,
+            return await get_speed(url, headers, cache_key, is_ipv6=is_ipv6, ipv6_proxy=ipv6_proxy,
                                    resolution=resolution, filter_resolution=filter_resolution,
                                    min_resolution=min_resolution, timeout=timeout,
                                    callback=callback)
@@ -687,7 +692,8 @@ async def process_sort_channel_list(data, ipv6=False, callback=None):
     tasks = [
         asyncio.create_task(
             limited_get_speed(
-                info["url"],
+                url=info["url"],
+                headers=(open_headers and info.get("headers", None)) or None,
                 cache_key=info["host"],
                 is_ipv6=info["ipv_type"] == "ipv6",
                 ipv6_proxy=ipv6_proxy_url,
@@ -752,7 +758,7 @@ def process_write_content(path: str,
     content = ""
     no_result_name = []
     first_cate = True
-    result_data = []
+    result_data = defaultdict(list)
     custom_print.disable = not enable_print
     rtmp_url = live_url if live else hls_url if hls else None
     rtmp_type = ["live", "hls"] if live and hls else ["live"] if live else ["hls"] if hls else []
@@ -765,7 +771,7 @@ def process_write_content(path: str,
         for i, name in enumerate(channel_obj_keys):
             info_list = data.get(cate, {}).get(name, [])
             channel_urls = get_total_urls(info_list, ipv_type_prefer, origin_type_prefer, rtmp_type)
-            result_data += channel_urls
+            result_data[name].extend(channel_urls)
             end_char = ", " if i < names_len - 1 else ""
             custom_print(f"{name}:", len(channel_urls), end=end_char)
             if not channel_urls:
@@ -808,13 +814,14 @@ def process_write_content(path: str,
         try:
             cursor = conn.cursor()
             cursor.execute(
-                "CREATE TABLE IF NOT EXISTS result_data (id TEXT PRIMARY KEY, url TEXT)"
+                "CREATE TABLE IF NOT EXISTS result_data (id TEXT PRIMARY KEY, url TEXT, headers TEXT)"
             )
-            for item in result_data:
-                cursor.execute(
-                    "INSERT OR REPLACE INTO result_data (id, url) VALUES (?, ?)",
-                    (item["id"], item["url"])
-                )
+            for data_list in result_data.values():
+                for item in data_list:
+                    cursor.execute(
+                        "INSERT OR REPLACE INTO result_data (id, url, headers) VALUES (?, ?, ?)",
+                        (item["id"], item["url"], json.dumps(item.get("headers", None)))
+                    )
             conn.commit()
         finally:
             return_db_connection(constants.rtmp_data_path, conn)
@@ -822,7 +829,7 @@ def process_write_content(path: str,
         f.write(content)
         if callback:
             callback()
-    convert_to_m3u(path, first_channel_name)
+    convert_to_m3u(path, first_channel_name, data=result_data)
     if callback:
         callback()
 
