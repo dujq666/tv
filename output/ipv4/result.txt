@@ -1,28 +1,24 @@
 🕘️更新时间,#genre#
-2025-05-10 06:19:44,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8
+2025-05-10 18:19:27,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8
 
 📺央视频道,#genre#
 CCTV-1,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8
 CCTV-5+,http://zqh2333.top:2222/rtp/239.93.24.36:8004
-CCTV-7,https://www.freetv.top/migu/673168121.m3u8?migutoken=a878b713604abd82c57cce75de174e0284d3f101e21d0c3e362670e4b5a5e75d9b42846e5e0adf92c1ad15c63d60934f3e68c25f787bc0665d12acde75a6db4761278e79b762292ed5b5a2fae3
-CCTV-7,https://www.freetv.top/migu/673168121.m3u8?migutoken=3253222269368c440aa1d23dba86c186a7b73abdea3890faf72e3d720844f8f1d3adc2b18ed047dbb3eff1a6c5d9379fad37d1f8a380d0e7c69e9ad6eb41709cf92077125fc0bded4cfd47808b
 CCTV-7,https://www.freetv.top/migu/673168121.m3u8?migutoken=11284a6f3b3b2fa213fe083e46e96de1056fd7727d3d02e2cb4c2eb6c9994c51a6d20f333eba2d4739cee8fe8d82b5a8ed95fbfa87d5df4d792df3f436e23df7ce80f601e526e1e967f1479a14
+CCTV-7,https://www.freetv.top/migu/673168121.m3u8?migutoken=3253222269368c440aa1d23dba86c186a7b73abdea3890faf72e3d720844f8f1d3adc2b18ed047dbb3eff1a6c5d9379fad37d1f8a380d0e7c69e9ad6eb41709cf92077125fc0bded4cfd47808b
+CCTV-7,https://www.freetv.top/migu/673168121.m3u8?migutoken=a878b713604abd82c57cce75de174e0284d3f101e21d0c3e362670e4b5a5e75d9b42846e5e0adf92c1ad15c63d60934f3e68c25f787bc0665d12acde75a6db4761278e79b762292ed5b5a2fae3
 CCTV-7,http://zqh2333.top:2222/rtp/239.93.24.61:5140
 CCTV-7,http://wouu.net:9977/udp/239.93.1.67:5140
 CCTV-8,http://zqh2333.top:2222/rtp/239.93.55.39:5140
 CCTV-9,http://zqh2333.top:2222/rtp/239.93.25.24:5140
 CCTV-10,http://zqh2333.top:2222/rtp/239.93.25.28:5140
 CCTV-12,http://zqh2333.top:2222/rtp/239.93.25.30:8124
-CCTV-13,http://1.197.127.166:10443/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-15,http://zqh2333.top:2222/rtp/239.93.24.103:5140
-CCTV-15,http://222.169.85.8:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-16,http://www.lizhinas.top:1009/rtp/239.252.220.237:5140
 
 📡卫视频道,#genre#
 浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#mitv://generationnexxxt.com:19806/7bf4b3a65eaf421ab6d71bd8dcc4547a
-湖南卫视,http://1.197.127.166:10443/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南卫视,http://zqh2333.top:2222/rtp/239.93.24.88:5140
 北京卫视,http://omnix.cn:4000/udp/225.1.8.21:8002
 北京卫视,http://zqh2333.top:2222/rtp/239.93.24.180:5140
@@ -40,20 +36,18 @@ CCTV-16,http://www.lizhinas.top:1009/rtp/239.252.220.237:5140
 广西卫视,http://zqh2333.top:2222/rtp/239.93.55.46:5140
 广西卫视,http://live.cztv.cc:85/live/ggpd.m3u8
 贵州卫视,http://zqh2333.top:2222/rtp/239.93.24.131:5140
-河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://nctv.top/IDOEPpiryt/hntv.php?id=hnws
+河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://113.109.250.108:9999/udp/239.77.0.17:5146
 河南卫视,http://ik6.iptv8.net:8888/rtp/225.1.4.254:1300
 河南卫视,http://zqh2333.top:2222/rtp/239.93.55.45:5140
 江苏卫视,http://zqh2333.top:2222/rtp/239.93.24.89:5140
 辽宁卫视,http://zqh2333.top:2222/rtp/239.93.25.108:5140
-辽宁卫视,http://222.169.85.8:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 内蒙古卫视,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 山东卫视,http://zqh2333.top:2222/rtp/239.93.24.168:5140
-四川卫视,http://wouu.net:9977/udp/239.93.0.169:5140
 四川卫视,http://zqh2333.top:2222/rtp/239.93.24.20:1235
+四川卫视,http://wouu.net:9977/udp/239.93.0.169:5140
 深圳卫视,http://yncbn.ks-cdn.gitv.tv/gitv_live/G_SHENZHEN-HQ/G_SHENZHEN-HQ.m3u8
 深圳卫视,http://zqh2333.top:2222/rtp/239.93.24.182:5140
 天津卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=127f62&tk=6949f8ce7202
 天津卫视,http://zqh2333.top:2222/rtp/239.93.24.167:5140
-天津卫视,http://wouu.net:9977/udp/239.93.0.167:5140
