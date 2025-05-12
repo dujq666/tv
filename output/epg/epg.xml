@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tv date="20250512032408 +0800">
+<tv date="20250512104041 +0800">
 	<channel id="CCTV-1">
 		<display-name lang="zh">CCTV-1</display-name>
 	</channel>
@@ -27990,6 +27990,15 @@
 	<programme channel="黑莓动画" start="20250512101800 +0800" stop="20250512121300 +0800">
 		<title lang="zh">战栗的乐谱 中文版</title>
 	</programme>
+	<programme channel="黑莓动画" start="20250512121300 +0800" stop="20250512135500 +0800">
+		<title lang="zh">天空的遇难船 中文版</title>
+	</programme>
+	<programme channel="黑莓动画" start="20250512135500 +0800" stop="20250512154400 +0800">
+		<title lang="zh">沉默的15分钟 中文版</title>
+	</programme>
+	<programme channel="黑莓动画" start="20250512154400 +0800" stop="20250512173400 +0800">
+		<title lang="zh">绝海的侦探 中文版</title>
+	</programme>
 	<channel id="黑莓电影">
 		<display-name lang="zh">黑莓电影</display-name>
 	</channel>
@@ -28010,6 +28019,15 @@
 	</programme>
 	<programme channel="黑莓电影" start="20250512101900 +0800" stop="20250512121300 +0800">
 		<title lang="zh">今年二十二</title>
+	</programme>
+	<programme channel="黑莓电影" start="20250512121300 +0800" stop="20250512134700 +0800">
+		<title lang="zh">天净沙</title>
+	</programme>
+	<programme channel="黑莓电影" start="20250512134700 +0800" stop="20250512152200 +0800">
+		<title lang="zh">兴隆山下菜花香</title>
+	</programme>
+	<programme channel="黑莓电影" start="20250512152200 +0800" stop="20250512170500 +0800">
+		<title lang="zh">南拳之英雄崛起</title>
 	</programme>
 	<channel id="黑龙江卫视">
 		<display-name lang="zh">黑龙江卫视</display-name>
