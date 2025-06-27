@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-06-27 18:22:13,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+2025-06-28 06:22:08,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 
 📺央视频道,#genre#
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
@@ -33,7 +33,6 @@ CCTV-7,http://omnix.cn:4000/udp/225.1.8.7:8104
 
 📡卫视频道,#genre#
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
-湖南卫视,http://39.164.180.36:19901/tsfile/live/0128_2.m3u8
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
 安徽卫视,http://satellitepull.cnr.cn/live/wxahws/playlist.m3u8
 东南卫视,http://satellitepull.cnr.cn/live/wx32fjws/playlist.m3u8
@@ -43,5 +42,6 @@ CCTV-7,http://omnix.cn:4000/udp/225.1.8.7:8104
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
 吉林卫视,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0533b55e42354f4f802bdec78e26b571/1.m3u8
 山东卫视,http://satellitepull.cnr.cn/live/wxsdws/playlist.m3u8
+四川卫视,http://fn.tmde.top:35455/nptv/sichuan.m3u8
 深圳卫视,http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
 云南卫视,https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
