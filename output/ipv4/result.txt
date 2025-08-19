@@ -1,23 +1,8 @@
 🕘️更新时间,#genre#
-2025-08-19 06:18:42,http://223.109.75.19:8000/057754/index.m3u8
+2025-08-19 18:21:29,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 
 📺央视频道,#genre#
-CCTV-1,http://223.109.75.19:8000/057754/index.m3u8
-CCTV-2,http://223.109.75.19:8000/061465/index.m3u8
-CCTV-3,http://223.109.75.19:8000/830965/index.m3u8
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
-CCTV-4,http://223.109.75.19:8000/143097/index.m3u8
-CCTV-5,http://223.109.75.19:8000/930480/index.m3u8
-CCTV-5+,http://223.109.75.19:8000/470540/index.m3u8
-CCTV-6,http://223.109.75.19:8000/520737/index.m3u8
-CCTV-7,http://223.109.75.19:8000/649185/index.m3u8
-CCTV-8,http://223.109.75.19:8000/235836/index.m3u8
-CCTV-9,http://223.109.75.19:8000/827648/index.m3u8
-CCTV-10,http://223.109.75.19:8000/502378/index.m3u8
-CCTV-11,http://223.109.75.19:8000/554982/index.m3u8
-CCTV-13,http://223.109.75.19:8000/593087/index.m3u8
-CCTV-14,http://223.109.75.19:8000/271607/index.m3u8
-CCTV-17,http://223.109.75.19:8000/299438/index.m3u8
 
 💰央视付费频道,#genre#
 风云音乐,http://dassby.qqff.top:99/live/风云音乐/index.m3u8
@@ -42,16 +27,12 @@ CCTV-17,http://223.109.75.19:8000/299438/index.m3u8
 📡卫视频道,#genre#
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
+湖北卫视,http://101.66.194.61:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0
 安徽卫视,http://satellitepull.cnr.cn/live/wxahws/playlist.m3u8
 东南卫视,http://satellitepull.cnr.cn/live/wx32fjws/playlist.m3u8
-东南卫视,http://125.42.151.98:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-贵州卫视,http://182.112.188.157:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
-河北卫视,http://182.112.188.157:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
 山东卫视,http://satellitepull.cnr.cn/live/wxsdws/playlist.m3u8
 深圳卫视,http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
-新疆卫视,http://182.112.188.157:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
 云南卫视,https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
-云南卫视,http://182.112.188.157:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
