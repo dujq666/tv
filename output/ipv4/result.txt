@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-08-21 06:17:49,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+2025-08-21 18:20:19,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 
 📺央视频道,#genre#
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
@@ -28,16 +28,13 @@ CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
 安徽卫视,http://satellitepull.cnr.cn/live/wxahws/playlist.m3u8
-重庆卫视,http://123.129.70.178:9901/tsfile/live/0142_1.m3u8
 东南卫视,http://satellitepull.cnr.cn/live/wx32fjws/playlist.m3u8
-甘肃卫视,http://39.150.96.141:65535/tsfile/live/0141_1.m3u8
+海南卫视,http://36.105.100.208:35455/itv/5000000004000006211.m3u8
+河北卫视,http://116.128.242.83:9901/tsfile/live/0142_1.m3u8
 河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
 山东卫视,http://satellitepull.cnr.cn/live/wxsdws/playlist.m3u8
 深圳卫视,http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
-天津卫视,http://125.42.151.98:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
-天津卫视,http://182.112.188.157:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-西藏卫视,http://36.105.100.208:35455/itv/6603041244077933770.m3u8
-新疆卫视,http://42.225.117.174:11199/tsfile/live/0110_1.m3u8
+天津卫视,http://125.42.151.98:9901/tsfile/live/0130_1.m3u8
 云南卫视,https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
