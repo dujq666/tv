@@ -1,9 +1,8 @@
 🕘️更新时间,#genre#
-2025-08-22 18:19:52,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+2025-08-23 06:18:52,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 
 📺央视频道,#genre#
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
-CCTV-7,http://101.66.199.161:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
 
 💰央视付费频道,#genre#
 风云音乐,http://dassby.qqff.top:99/live/风云音乐/index.m3u8
