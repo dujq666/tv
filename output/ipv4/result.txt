@@ -1,8 +1,22 @@
 🕘️更新时间,#genre#
-2025-08-29 06:19:40,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+2025-08-29 18:20:38,http://8.134.110.147:5300/?id=cctv1
 
 📺央视频道,#genre#
+CCTV-1,http://8.134.110.147:5300/?id=cctv1
+CCTV-2,http://8.134.110.147:5300/?id=cctv2
+CCTV-3,http://8.134.110.147:5300/?id=cctv3
+CCTV-4,http://8.134.110.147:5300/?id=cctv4
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+CCTV-6,http://8.134.110.147:5300/?id=cctv6
+CCTV-7,http://8.134.110.147:5300/?id=cctv7
+CCTV-8,http://8.134.110.147:5300/?id=cctv8
+CCTV-9,http://8.134.110.147:5300/?id=cctv9
+CCTV-10,http://8.134.110.147:5300/?id=cctv10
+CCTV-12,http://8.134.110.147:5300/?id=cctv12
+CCTV-13,http://8.134.110.147:5300/?id=cctv13
+CCTV-14,http://8.134.110.147:5300/?id=cctv14
+CCTV-15,http://8.134.110.147:5300/?id=cctv15
+CCTV-17,http://8.134.110.147:5300/?id=cctv17
 
 💰央视付费频道,#genre#
 风云音乐,http://dassby.qqff.top:99/live/风云音乐/index.m3u8
@@ -26,20 +40,18 @@ CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 
 📡卫视频道,#genre#
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
-广东卫视,http://gfr.x3322.net:9901/tsfile/live/1096_1.m3u8
+广东卫视,http://8.134.110.147:5300/?id=gdws
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
-黑龙江卫视,http://gfr.x3322.net:9901/tsfile/live/1094_1.m3u8
 安徽卫视,http://satellitepull.cnr.cn/live/wxahws/playlist.m3u8
-安徽卫视,http://gfr.x3322.net:9901/tsfile/live/1092_1.m3u8
+东方卫视,http://8.134.110.147:5300/?id=dfws
 东南卫视,http://satellitepull.cnr.cn/live/wx32fjws/playlist.m3u8
-广西卫视,http://1.195.130.102:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
+河南卫视,http://8.134.110.147:5300/?id=hnws
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
-江苏卫视,http://gfr.x3322.net:9901/tsfile/live/1086_1.m3u8
-江苏卫视,http://36.105.100.208:35455/itv/1000000005000265030.m3u8
+江苏卫视,http://8.134.110.147:5300/?id=jsws
+江西卫视,http://8.134.110.147:5300/?id=jxws
 山东卫视,http://satellitepull.cnr.cn/live/wxsdws/playlist.m3u8
-四川卫视,http://1.195.130.102:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
+陕西卫视,http://8.134.110.147:5300/?id=sxws
 深圳卫视,http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
 云南卫视,https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
-云南卫视,http://125.125.236.51:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
