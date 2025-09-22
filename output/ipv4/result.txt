@@ -1,7 +1,9 @@
 🕘️更新时间,#genre#
-2025-09-22 18:22:47,http://dassby.qqff.top:99/live/风云音乐/index.m3u8
+2025-09-23 06:17:29,http://113.15.109.216:59901/tsfile/live/0006_1.m3u8
 
 📺央视频道,#genre#
+CCTV-6,http://113.15.109.216:59901/tsfile/live/0006_1.m3u8
+CCTV-9,http://113.15.109.216:59901/tsfile/live/0009_1.m3u8
 
 💰央视付费频道,#genre#
 风云音乐,http://dassby.qqff.top:99/live/风云音乐/index.m3u8
